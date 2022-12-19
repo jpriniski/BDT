@@ -1,11 +1,6 @@
-# BDT
-Bayesian Decision Theoretic Framework for simulating motivated reasoning 
+# Bayesian Decision Theoretic Framework
+The Bayesian Decision Theoretic Framework is a computational framework for studying motivated reasoning. The python notebook contains two computational cognitive models that generate predictions using this framework. We discuss the implications of these simulations in detail in Priniski, Solanki, & Horne (2022). _A Bayesian decision-theoretic framework for studying motivated reasoning_. Find the paper here https://psyarxiv.com/ngavz
 
-Python Notebook for generating simulations and figures in Priniski, Solanki, & Horne (2022). _A Bayesian decision-theoretic framework for studying motivated reasoning_. 
+This code contains cogntiive models that produce Bayesian decisions using normative (pracitcal reasoning) and directional priors (motivated reasoning).  Directional priors are Bayesian priors conditioned on a utility-calculus, whereas normative priors are typical Bayesain priors and constitutes rational thinking. See section II of paper for more details. 
 
-Paper here https://psyarxiv.com/ngavz
-
-This code produces Bayesian decisions using normative (pracitcal reasoning) and directional priors (motivated reasoning). See section II of paper. 
-Directional priors are Bayesian priors conditioned on a utility-calculus. Simultations from normative and directed Bayesian posetiors can be
-compared to behavioral data to disnguish between cases of practical and motivated reasoning. Knowing the difference can motivate how a research 
-choses to revise a related belief. We discuss how in the paper. 
+Ouputs from these models are decision variables conditioned on evidence about the state of the world and a reasoner's goals. Simultations from normative and directed Bayesian posetiors can be compared to behavioral data to disnguish between cases of practical and motivated reasoning in humans. Knowing the difference can motivate how a researcher choses to revise false beliefs (e.g., misconceptions about climate change). We discuss how in the paper. 
